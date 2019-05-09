@@ -43,9 +43,9 @@ class AliSms(object):
         return signature
 
     def __init__(self):
-        self.app_key = “SMS_APP_KEY”
-        self.app_secret = “SMS_APP_SECRET”
-        self.sign_name = “SMS_SIGN_NAME”
+        self.app_key = 'SMS_APP_KEY'
+        self.app_secret = 'SMS_APP_SECRET'
+        self.sign_name = 'SMS_SIGN_NAME'
         self.action = 'SendSms'
         self.format = 'JSON'
         self.region_id = 'cn-hangzhou'
